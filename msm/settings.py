@@ -100,7 +100,8 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8001',
     'http://192.168.1.4:8001',
-    'http://192.168.1.4:8000',
+    'http://192.168.1.4:8000'
+    'http://13.53.108.241',
 ]
 ROOT_URLCONF = 'msm.urls'
 
@@ -130,7 +131,7 @@ if DEBUG:
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'msm',
             'USER': 'root',
-            'PASSWORD': 'Nihaya@21',
+            'PASSWORD': '',
             'HOST': 'localhost',
             'PORT': 3306
         }
