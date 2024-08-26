@@ -131,7 +131,7 @@ if DEBUG:
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'msm',
             'USER': 'root',
-            'PASSWORD': '',
+            'PASSWORD': 'Nihaya@21',
             'HOST': 'localhost',
             'PORT': 3306
         }
